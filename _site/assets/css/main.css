@@ -474,7 +474,7 @@ hr {
 
 header nav {
   float: right;
-  margin: 30px 245px 30px 0; }
+  margin: 20px 245px 30px 0; }
   header nav a {
     display: inline-block;
     margin-left: 20px;
@@ -487,10 +487,19 @@ header nav {
 header .head-logo {
   height: 50px;
   width: auto;
-  margin: 30px 0 0 245px; }
+  margin: 20px 0 10px 245px; }
 header .slack-logo {
   height: 50px;
   width: auto;
   margin: 0 0; }
+
+#hero {
+  height: 1240px;
+  width: 100%;
+  background-color: #505556;
+  background-image: url(../img/hero-img/img1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 /*# sourceMappingURL=main.css.map */
