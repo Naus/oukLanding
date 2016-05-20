@@ -454,4 +454,41 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+.beta-cta {
+  border: none;
+  outline: none;
+  margin: 0 10px;
+  border-radius: 0.3rem;
+  padding: 3px 10px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #eeeeee;
+  text-decoration: none;
+  text-alighn: center;
+  cursor: pointer;
+  background-color: rgba(57, 191, 230, 0.6); }
+  .beta-cta:hover {
+    color: #eeeeee;
+    background-color: #39bfe6; }
+
+header nav {
+  float: right;
+  margin: 30px 245px 30px 0; }
+  header nav a {
+    display: inline-block;
+    margin-left: 20px;
+    color: #e67e22;
+    Font-size: 14px;
+    Font-weight: 700;
+    text-transform: uppercase; }
+    header nav a:hover {
+      color: #39bfe6; }
+header .head-logo {
+  height: 50px;
+  width: auto;
+  margin: 30px 0 30px 245px; }
+header .slack-logo {
+  height: 75px;
+  width: auto; }
+
 /*# sourceMappingURL=main.css.map */
