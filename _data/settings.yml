@@ -1,0 +1,28 @@
+#-------------------------------
+# General Site Settings
+
+title: One Up King landing page, Website
+description: Website App with social media in mind to challenge people to share their talents.
+email: NausDesign@gmail.com
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Scocial Media, Talents, Challenge, Share, One Up King, Naus Design, Sports'
+  rel-author: 'https://nausdesign.com'
+  rel-publisher: 'https://nausdesign.com'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics-ua: UA-77898132-3
+
+#-------------------------------
