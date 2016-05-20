@@ -457,7 +457,8 @@ hr {
 .beta-cta {
   border: none;
   outline: none;
-  margin: 0 10px;
+  float: right;
+  margin-top: 10px;
   border-radius: 0.3rem;
   padding: 3px 10px;
   font-weight: 700;
@@ -486,9 +487,10 @@ header nav {
 header .head-logo {
   height: 50px;
   width: auto;
-  margin: 30px 0 30px 245px; }
+  margin: 30px 0 0 245px; }
 header .slack-logo {
-  height: 75px;
-  width: auto; }
+  height: 50px;
+  width: auto;
+  margin: 0 0; }
 
 /*# sourceMappingURL=main.css.map */
