@@ -471,13 +471,20 @@ hr {
   .beta-cta:hover {
     color: #eeeeee;
     background-color: #39bfe6; }
+  @media (max-width: 500px) {
+    .beta-cta {
+      font-size: 12px;
+      margin-top: 8px; } }
 
 header nav {
   float: right;
   margin: 20px 245px 30px 0; }
+  @media (max-width: 500px) {
+    header nav {
+      margin: 20px 10px 30px 0; } }
   header nav a {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 10px;
     color: #e67e22;
     Font-size: 14px;
     Font-weight: 700;
@@ -488,10 +495,17 @@ header .head-logo {
   height: 50px;
   width: auto;
   margin: 20px 0 10px 245px; }
+  @media (max-width: 500px) {
+    header .head-logo {
+      height: 40px;
+      margin: 20px 0 10px 10px; } }
 header .slack-logo {
   height: 50px;
   width: auto;
   margin: 0 0; }
+  @media (max-width: 500px) {
+    header .slack-logo {
+      height: 40px; } }
 
 #hero {
   height: 1240px;
