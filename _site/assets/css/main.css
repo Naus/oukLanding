@@ -522,4 +522,29 @@ header .slack-logo {
     #hero {
       height: 830px; } }
 
+.ouk-text {
+  padding: 50px 0 0 0; }
+  .ouk-text h1 {
+    color: #e67e22;
+    text-align: center;
+    margin-bottom: 5px; }
+    @media (max-width: 770px) {
+      .ouk-text h1 {
+        font-size: 50px; } }
+  .ouk-text h3, .ouk-text p {
+    color: #eeeeee;
+    text-align: center; }
+  .ouk-text p {
+    font-size: 20px;
+    font-size: 14px; }
+
+.ouk-form {
+  margin-left: 25.58941%;
+  max-width: 600px;
+  text-align: center; }
+  @media (max-width: 770px) {
+    .ouk-form {
+      margin-left: 8.5298%;
+      max-width: 350px; } }
+
 /*# sourceMappingURL=main.css.map */
