@@ -618,4 +618,17 @@ form {
 .fith-image.show {
   opacity: 1; }
 
+footer {
+  padding-top: 360px;
+  text-align: center; }
+
+.social-icon-container {
+  padding-bottom: 30px; }
+
+.contact-social-icon {
+  margin: 0px 23px; }
+  @media (max-width: 420px) {
+    .contact-social-icon {
+      margin: 0px 15px; } }
+
 /*# sourceMappingURL=main.css.map */
