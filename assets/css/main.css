@@ -479,7 +479,7 @@ hr {
 header nav {
   float: right;
   margin: 20px 245px 30px 0; }
-  @media (max-width: 500px) {
+  @media (max-width: 770px) {
     header nav {
       margin: 20px 10px 30px 0; } }
   header nav a {
@@ -495,7 +495,7 @@ header .head-logo {
   height: 50px;
   width: auto;
   margin: 20px 0 10px 245px; }
-  @media (max-width: 500px) {
+  @media (max-width: 770px) {
     header .head-logo {
       height: 40px;
       margin: 20px 0 10px 10px; } }
@@ -503,17 +503,23 @@ header .slack-logo {
   height: 50px;
   width: auto;
   margin: 0 0; }
-  @media (max-width: 500px) {
+  @media (max-width: 770px) {
     header .slack-logo {
       height: 40px; } }
 
 #hero {
-  height: 1240px;
+  height: 1180px;
   width: 100%;
   background-color: #505556;
   background-image: url(../img/hero-img/img1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  @media (max-width: 1681px) {
+    #hero {
+      height: 780px; } }
+  @media (max-width: 770px) {
+    #hero {
+      height: 830px; } }
 
 /*# sourceMappingURL=main.css.map */
