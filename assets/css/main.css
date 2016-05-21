@@ -562,6 +562,9 @@ header .slack-logo {
   left: 0;
   height: 800px;
   transition: opacity 1s ease-in-out; }
+  @media (max-width: 770px) {
+    .toggle-image {
+      top: 80px; } }
 
 /* Styles for the specific images. */
 .first-image {
