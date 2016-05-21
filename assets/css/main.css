@@ -1,6 +1,6 @@
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
-  background-color: #1565c0;
+  background-color: #e67e22;
   border: 0;
   border-radius: 3px;
   color: #fff;
@@ -18,13 +18,13 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   vertical-align: middle;
   white-space: nowrap; }
   button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
-    background-color: #11519a;
+    background-color: #b8651b;
     color: #fff; }
   button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled {
     cursor: not-allowed;
     opacity: 0.5; }
     button:disabled:hover, input[type="button"]:disabled:hover, input[type="reset"]:disabled:hover, input[type="submit"]:disabled:hover {
-      background-color: #1565c0; }
+      background-color: #b8651b; }
 
 fieldset {
   background-color: transparent;
@@ -523,7 +523,13 @@ header .slack-logo {
       height: 830px; } }
 
 .ouk-text {
+  margin-left: 25.58941%;
+  max-width: 600px;
   padding: 50px 0 0 0; }
+  @media (max-width: 770px) {
+    .ouk-text {
+      margin-left: 8.5298%;
+      max-width: 350px; } }
   .ouk-text h1 {
     color: #e67e22;
     text-align: center;
@@ -546,5 +552,7 @@ header .slack-logo {
     .ouk-form {
       margin-left: 8.5298%;
       max-width: 350px; } }
+  .ouk-form form .send-cta {
+    display: inline; }
 
 /*# sourceMappingURL=main.css.map */
