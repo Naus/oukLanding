@@ -506,7 +506,7 @@ hr {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%;
+      width: 82.94039%;
       margin-left: 8.5298%;
       max-width: 350px; }
       .col-1:last-child {
@@ -527,8 +527,8 @@ hr {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%;
-      margin-left: 40.09008%; }
+      width: 53.08608%;
+      margin-left: 38.38412%; }
       .col-2:last-child {
         margin-right: 0; } }
 
@@ -546,7 +546,8 @@ hr {
       margin-top: 150px; } }
   @media (max-width: 500px) {
     .box-container {
-      margin-top: 50px; } }
+      margin-top: 0px;
+      background-color: rgba(238, 238, 238, 0.1); } }
   .box-container .box-center {
     float: left;
     display: block;
@@ -560,17 +561,25 @@ hr {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 100%;
-        margin-left: 4.2649%; }
+        width: 82.94039%;
+        margin-left: 8.5298%; }
         .box-container .box-center:last-child {
           margin-right: 0; } }
     @media (max-width: 500px) {
       .box-container .box-center {
-        margin-left: 38.38412%; } }
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 53.08608%;
+        margin-left: 38.38412%; }
+        .box-container .box-center:last-child {
+          margin-right: 0; } }
     .box-container .box-center .box {
       display: inline;
       padding: 0 20px;
-      margin: 0px 20px; }
+      margin: 0px 20px;
+      margin: 0px 10px;
+      padding: 0 10px; }
       @media (max-width: 500px) {
         .box-container .box-center .box {
           display: block;
@@ -657,11 +666,14 @@ header .slack-logo {
   @media (max-width: 773px) {
     .ouk-text h1 {
       font-size: 50px; } }
-.ouk-text h3, .ouk-text p {
+.ouk-text h3 {
   color: #eeeeee;
   text-align: center; }
 .ouk-text p {
-  font-size: 20px;
+  font-size: 26px;
+  font-weight: 500;
+  color: #eeeeee;
+  text-align: center;
   font-size: 14px; }
 
 .ouk-formtext p {

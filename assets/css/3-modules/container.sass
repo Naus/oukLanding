@@ -11,7 +11,7 @@
   @media (max-width: 773px)
     @include shift(1.7)
   @media (max-width: 500px)
-    @include span-columns(12)
+    @include span-columns(10)
     @include shift(1)
     max-width: 350px
   @media (max-width: 376px)
@@ -20,26 +20,27 @@
 .col-2
   @include span-columns(4)
   @media (max-width: 500px)
-    @include span-columns(12)
-    @include shift(4.7)
+    @include span-columns(6.5)
+    @include shift(4.5)
 
 
 .box-container
-  //background-color: transparentize($kingwhite, 0.7)
   @include outer-container
   margin-top: 100px
   @media (max-width: 773px)
     margin-top: 150px
   @media (max-width: 500px)
-    margin-top: 50px
+    margin-top: 0px
+    background-color: transparentize($kingwhite, 0.9)
 
   .box-center
     @include span-columns(8)
     @include shift(2)
     @media (max-width: 773px)
-      @include span-columns(12)
-      @include shift(.5)
+      @include span-columns(10)
+      @include shift(1)
     @media (max-width: 500px)
+      @include span-columns(6.5)
       @include shift(4.5)
 
 
@@ -48,6 +49,9 @@
       display: inline
       padding: 0 20px
       margin: 0px 20px
+      @media (max-width: 773px)
+      margin: 0px 10px
+      padding: 0 10px
       @media (max-width: 500px)
         display: block
         padding: 0 0
