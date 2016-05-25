@@ -551,8 +551,8 @@ hr {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 48.82117%;
-    margin-left: 25.58941%; }
+    width: 65.88078%;
+    margin-left: 17.05961%; }
     .box-container .box-center:last-child {
       margin-right: 0; }
     @media (max-width: 773px) {
@@ -568,10 +568,12 @@ hr {
       .box-container .box-center {
         margin-left: 34.11922%; } }
     .box-container .box-center .box {
-      display: inline; }
+      display: inline;
+      padding: 0 20px; }
       @media (max-width: 500px) {
         .box-container .box-center .box {
           display: block;
+          padding: 0 0;
           margin: 30px 0; } }
 
 header nav {
