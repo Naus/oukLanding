@@ -23,35 +23,27 @@
     @include span-columns(12)
     @include shift(4.7)
 
-/*.box-wrapper
-  @include outer-container(100%)
-  @include shift(2.6)
-  padding-top: 116px
 
-  .box-1
-    @include span-columns(1)
-    @include reset-display
-    background-color: transparentize($kingblue, 0.4)
-    height: 200px
-    width: 200px
+.box-container
+  @include outer-container
+  margin-top: 200px
+  @media (max-width: 773px)
+    margin-top: 150px
+  @media (max-width: 500px)
+    margin-top: 50px
 
-  .box-2
-    @include span-columns(1)
-    @include reset-display
-    background-color: transparentize($kingblue, 0.4)
-    height: 200px
-    width: 200px
+  .box-center
+    @include span-columns(6)
+    @include shift(3)
+    @media (max-width: 773px)
+      @include span-columns(12)
+      @include shift(1.2)
+    @media (max-width: 500px)
+      @include shift(4)
 
-  .box-3
-    @include span-columns(1)
-    @include reset-display
-    background-color: transparentize($kingblue, 0.4)
-    height: 200px
-    width: 200px
 
-  .box-4
-    @include span-columns(1)
-    @include reset-display
-    background-color: transparentize($kingblue, 0.4)
-    height: 200px
-    width: 200px
+    .box
+      display: inline
+      @media (max-width: 500px)
+        display: block
+        margin: 30px 0

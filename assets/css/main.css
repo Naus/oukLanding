@@ -532,38 +532,48 @@ hr {
       .col-2:last-child {
         margin-right: 0; } }
 
-/*.box-wrapper
- * @include outer-container(100%)
- * @include shift(2.6)
- * padding-top: 116px
- *
- * .box-1
- *   @include span-columns(1)
- *   @include reset-display
- *   background-color: transparentize($kingblue, 0.4)
- *   height: 200px
- *   width: 200px
- *
- * .box-2
- *   @include span-columns(1)
- *   @include reset-display
- *   background-color: transparentize($kingblue, 0.4)
- *   height: 200px
- *   width: 200px
- *
- * .box-3
- *   @include span-columns(1)
- *   @include reset-display
- *   background-color: transparentize($kingblue, 0.4)
- *   height: 200px
- *   width: 200px
- *
- * .box-4
- *   @include span-columns(1)
- *   @include reset-display
- *   background-color: transparentize($kingblue, 0.4)
- *   height: 200px
- *   width: 200px */
+.box-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px; }
+  .box-container::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media (max-width: 773px) {
+    .box-container {
+      margin-top: 150px; } }
+  @media (max-width: 500px) {
+    .box-container {
+      margin-top: 50px; } }
+  .box-container .box-center {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-left: 25.58941%; }
+    .box-container .box-center:last-child {
+      margin-right: 0; }
+    @media (max-width: 773px) {
+      .box-container .box-center {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        margin-left: 10.23577%; }
+        .box-container .box-center:last-child {
+          margin-right: 0; } }
+    @media (max-width: 500px) {
+      .box-container .box-center {
+        margin-left: 34.11922%; } }
+    .box-container .box-center .box {
+      display: inline; }
+      @media (max-width: 500px) {
+        .box-container .box-center .box {
+          display: block;
+          margin: 30px 0; } }
+
 header nav {
   float: right;
   margin: 20px 245px 30px 0; }
@@ -701,11 +711,11 @@ form {
   opacity: 1; }
 
 footer {
-  padding-top: 360px;
+  padding-top: 60px;
   text-align: center; }
   @media (max-width: 773px) {
     footer {
-      padding-top: 320px; } }
+      padding-top: 100px; } }
   @media (max-width: 500px) {
     footer {
       padding-top: 50px; }
