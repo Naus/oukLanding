@@ -498,7 +498,7 @@ hr {
   max-width: 600px; }
   .col-1:last-child {
     margin-right: 0; }
-  @media (max-width: 770px) {
+  @media (max-width: 773px) {
     .col-1 {
       margin-left: 14.50067%; } }
   @media (max-width: 500px) {
@@ -567,7 +567,7 @@ hr {
 header nav {
   float: right;
   margin: 20px 245px 30px 0; }
-  @media (max-width: 770px) {
+  @media (max-width: 773px) {
     header nav {
       margin: 20px 100px 30px 0; } }
   @media (max-width: 500px) {
@@ -586,7 +586,7 @@ header .head-logo {
   height: 50px;
   width: auto;
   margin: 20px 0 10px 245px; }
-  @media (max-width: 770px) {
+  @media (max-width: 773px) {
     header .head-logo {
       height: 40px;
       margin: 20px 0 10px 100px; } }
@@ -597,7 +597,7 @@ header .slack-logo {
   height: 50px;
   width: auto;
   margin: 0 0; }
-  @media (max-width: 770px) {
+  @media (max-width: 773px) {
     header .slack-logo {
       height: 40px; } }
 
@@ -614,7 +614,7 @@ header .slack-logo {
   color: #e67e22;
   text-align: center;
   margin-bottom: 5px; }
-  @media (max-width: 770px) {
+  @media (max-width: 773px) {
     .ouk-text h1 {
       font-size: 50px; } }
 .ouk-text h3, .ouk-text p {
@@ -643,7 +643,7 @@ form {
   @media (max-width: 1681px) {
     .background-image {
       height: 780px; } }
-  @media (max-width: 770px) {
+  @media (max-width: 773px) {
     .background-image {
       height: 830px; } }
 
@@ -655,7 +655,7 @@ form {
   left: 0;
   height: 800px;
   transition: opacity 1s ease-in-out; }
-  @media (max-width: 770px) {
+  @media (max-width: 773px) {
     .toggle-image {
       top: 80px; } }
 
@@ -703,7 +703,7 @@ form {
 footer {
   padding-top: 360px;
   text-align: center; }
-  @media (max-width: 770px) {
+  @media (max-width: 773px) {
     footer {
       padding-top: 320px; } }
   @media (max-width: 500px) {
