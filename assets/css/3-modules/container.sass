@@ -56,13 +56,16 @@
 
 .info-container
   @include outer-container
+  padding-top: 150px
+  @media (max-width: 500px)
+    padding-top: 50px
 
-  .progress-map
+  .info-center
     @include span-columns(8)
     @include shift(2)
 
-    h1, p
-      //text-align: center
+    h2, p
+      text-align: center
       color: $kingwhite
 
 .hide

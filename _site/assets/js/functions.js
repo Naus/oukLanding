@@ -1,5 +1,31 @@
 $( document ).ready(function() {
 
+  // funcitions to call ----------------------
+
+  $(function() {
+  	smoothScroll(500);
+  });
+
+
+  // smoothScroll function ----------------------
+
+  function smoothScroll (duration) {
+  	$('a[href^="#"]').on('click', function(event) {
+
+  	    var target = $( $(this).attr('href') );
+
+  	    if( target.length ) {
+  	        event.preventDefault();
+  	        $('html, body').animate({
+  	            scrollTop: target.offset().top
+  	        }, duration);
+  	    }
+  	});
+  }
+
+
+
+
   function cycleBackgrounds() {
 	var index = 0;
 
@@ -21,4 +47,24 @@ $(function () {
 	cycleBackgrounds();
 });
 
+});
+
+$('#map-btn').click(function() {
+    $('#map').toggle();
+});
+
+$('#faq-btn').click(function() {
+    $('#faq').toggle();
+});
+
+$('#join-btn').click(function() {
+    $('#join').toggle();
+});
+
+$('#contact-btn').click(function() {
+    $('#contact').toggle();
+});
+
+$('#beta-btn').click(function() {
+    $('#beta').toggle();
 });

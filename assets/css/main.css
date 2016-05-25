@@ -580,20 +580,25 @@ hr {
 .info-container {
   max-width: 1200px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding-top: 150px; }
   .info-container::after {
     clear: both;
     content: "";
     display: table; }
-  .info-container .progress-map {
+  @media (max-width: 500px) {
+    .info-container {
+      padding-top: 50px; } }
+  .info-container .info-center {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 65.88078%;
     margin-left: 17.05961%; }
-    .info-container .progress-map:last-child {
+    .info-container .info-center:last-child {
       margin-right: 0; }
-    .info-container .progress-map h1, .info-container .progress-map p {
+    .info-container .info-center h2, .info-container .info-center p {
+      text-align: center;
       color: #eeeeee; }
 
 .hide {
