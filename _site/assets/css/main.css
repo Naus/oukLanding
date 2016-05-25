@@ -476,10 +476,69 @@ hr {
       font-size: 12px;
       margin-top: 8px; } }
 
+.col-wrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0 0 0; }
+  .col-wrapper::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media (max-width: 500px) {
+    .col-wrapper {
+      padding: 0 0; } }
+
+.col-1 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-left: 17.05961%;
+  max-width: 600px; }
+  .col-1:last-child {
+    margin-right: 0; }
+  @media (max-width: 770px) {
+    .col-1 {
+      margin-left: 14.50067%; } }
+  @media (max-width: 500px) {
+    .col-1 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-left: 8.5298%;
+      max-width: 350px; }
+      .col-1:last-child {
+        margin-right: 0; } }
+  @media (max-width: 376px) {
+    .col-1 {
+      max-width: 320px; } }
+
+.col-2 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .col-2:last-child {
+    margin-right: 0; }
+  @media (max-width: 500px) {
+    .col-2 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-left: 40.09008%; }
+      .col-2:last-child {
+        margin-right: 0; } }
+
 header nav {
   float: right;
   margin: 20px 245px 30px 0; }
   @media (max-width: 770px) {
+    header nav {
+      margin: 20px 100px 30px 0; } }
+  @media (max-width: 500px) {
     header nav {
       margin: 20px 10px 30px 0; } }
   header nav a {
@@ -498,6 +557,9 @@ header .head-logo {
   @media (max-width: 770px) {
     header .head-logo {
       height: 40px;
+      margin: 20px 0 10px 100px; } }
+  @media (max-width: 500px) {
+    header .head-logo {
       margin: 20px 0 10px 10px; } }
 header .slack-logo {
   height: 50px;
@@ -507,49 +569,37 @@ header .slack-logo {
     header .slack-logo {
       height: 40px; } }
 
-.ouk-text {
-  margin-left: 25.58941%;
-  max-width: 600px;
-  padding: 50px 0 0 0; }
-  @media (max-width: 770px) {
-    .ouk-text {
-      margin-left: 6.82384%;
-      max-width: 350px; } }
-  .ouk-text h1 {
-    color: #e67e22;
-    text-align: center;
-    margin-bottom: 5px; }
-    @media (max-width: 770px) {
-      .ouk-text h1 {
-        font-size: 50px; } }
-  .ouk-text h3, .ouk-text p {
-    color: #eeeeee;
-    text-align: center; }
-  .ouk-text p {
-    font-size: 20px;
-    font-size: 14px; }
+.phone-img {
+  height: 430px;
+  width: auto;
+  padding: 30px 0 0 0; }
+  @media (max-width: 500px) {
+    .phone-img {
+      height: 300px;
+      padding-bottom: 30px; } }
 
-.ouk-formtext {
-  margin-left: 25.58941%;
-  max-width: 600px; }
+.ouk-text h1 {
+  color: #e67e22;
+  text-align: center;
+  margin-bottom: 5px; }
   @media (max-width: 770px) {
-    .ouk-formtext {
-      margin-left: 6.82384%;
-      max-width: 350px; } }
-  .ouk-formtext p {
-    font-size: 20px;
-    color: #eeeeee;
-    text-align: center;
-    font-size: 14px; }
+    .ouk-text h1 {
+      font-size: 50px; } }
+.ouk-text h3, .ouk-text p {
+  color: #eeeeee;
+  text-align: center; }
+.ouk-text p {
+  font-size: 20px;
+  font-size: 14px; }
+
+.ouk-formtext p {
+  font-size: 20px;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 14px; }
 
 form {
-  margin-left: 25.58941%;
-  max-width: 600px;
   text-align: center; }
-  @media (max-width: 770px) {
-    form {
-      margin-left: 6.82384%;
-      max-width: 360px; } }
 
 /* Basic background image styling. */
 .background-image {
@@ -621,6 +671,14 @@ form {
 footer {
   padding-top: 360px;
   text-align: center; }
+  @media (max-width: 770px) {
+    footer {
+      padding-top: 320px; } }
+  @media (max-width: 500px) {
+    footer {
+      padding-top: 50px; }
+      footer p {
+        margin: 0 10px 10px 10px; } }
 
 .social-icon-container {
   padding-bottom: 30px; }

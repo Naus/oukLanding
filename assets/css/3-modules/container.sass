@@ -1,0 +1,24 @@
+.col-wrapper
+  @include outer-container
+  padding: 50px 0 0 0
+  @media (max-width: 500px)
+    padding: 0 0
+
+.col-1
+  @include span-columns(6)
+  @include shift(2)
+  max-width: 600px
+  @media (max-width: 770px)
+    @include shift(1.7)
+  @media (max-width: 500px)
+    @include span-columns(12)
+    @include shift(1)
+    max-width: 350px
+  @media (max-width: 376px)
+    max-width: 320px
+
+.col-2
+  @include span-columns(4)
+  @media (max-width: 500px)
+    @include span-columns(12)
+    @include shift(4.7)

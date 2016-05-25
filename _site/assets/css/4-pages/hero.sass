@@ -1,11 +1,12 @@
+.phone-img
+  height: 430px
+  width: auto
+  padding: 30px 0 0 0
+  @media (max-width: 500px)
+    height: 300px
+    padding-bottom: 30px
 
 .ouk-text
-  @include shift(3)
-  max-width: 600px
-  padding: 50px 0 0 0
-  @media (max-width: 770px)
-    @include shift(.8)
-    max-width: 350px
 
   h1
     color: $kingorange
@@ -24,11 +25,6 @@
     font-size: 14px
 
 .ouk-formtext
-  @include shift(3)
-  max-width: 600px
-  @media (max-width: 770px)
-    @include shift(.8)
-    max-width: 350px
 
   p
     font-size: 20px
@@ -38,12 +34,9 @@
     font-size: 14px
 
 form
-  @include shift(3)
-  max-width: 600px
   text-align: center
   @media (max-width: 770px)
-    @include shift(.8)
-    max-width: 360px
+
 
 
 /* Basic background image styling. */
