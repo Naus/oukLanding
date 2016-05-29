@@ -153,7 +153,7 @@ p {
   margin: 0 0 0.78947em; }
 
 a {
-  color: #1565c0;
+  color: #39bfe6;
   text-decoration: none;
   transition: color 150ms ease; }
   a:active, a:focus, a:hover {
@@ -757,6 +757,12 @@ form {
 
 .fith-image.show {
   opacity: 1; }
+
+#map {
+  background-image: url(../img/progress-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 footer {
   padding-top: 140px;
