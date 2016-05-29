@@ -60,13 +60,16 @@
 
 .info-container
   @include outer-container
-  padding-top: 150px
+  padding-top: 50px
   @media (max-width: 500px)
     padding-top: 50px
 
   .info-center
     @include span-columns(8)
     @include shift(2)
+    @media (max-width: 773px)
+      @include span-columns(10)
+      @include shift(1)
 
     h2, p
       text-align: center
