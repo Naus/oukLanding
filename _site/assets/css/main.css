@@ -616,6 +616,9 @@ hr {
 header nav {
   float: right;
   margin: 20px 245px 30px 0; }
+  @media (min-width: 2000px) {
+    header nav {
+      margin: 20px 645px 30px 0; } }
   @media (max-width: 773px) {
     header nav {
       margin: 20px 100px 30px 0; } }
@@ -635,6 +638,9 @@ header .head-logo {
   height: 50px;
   width: auto;
   margin: 20px 0 10px 245px; }
+  @media (min-width: 2000px) {
+    header .head-logo {
+      margin: 20px 0 30px 645px; } }
   @media (max-width: 773px) {
     header .head-logo {
       height: 40px;
