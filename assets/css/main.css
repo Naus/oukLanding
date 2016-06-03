@@ -677,19 +677,21 @@ header .slack-logo {
 .ouk-text h1 {
   color: #e67e22;
   text-align: center;
-  margin-bottom: 5px; }
+  margin-bottom: 25px; }
   @media (max-width: 773px) {
     .ouk-text h1 {
       font-size: 50px; } }
 .ouk-text h3 {
   color: #eeeeee;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 25px; }
 .ouk-text p {
   font-size: 26px;
   font-weight: 500;
   color: #eeeeee;
   text-align: center;
-  font-size: 14px; }
+  font-size: 14px;
+  font-size: 13px; }
 
 .ouk-formtext p {
   font-size: 20px;
@@ -875,7 +877,7 @@ form {
         margin-bottom: 120px; } }
 
 footer {
-  padding-top: 140px;
+  padding-top: 340px;
   text-align: center; }
   @media (max-width: 773px) {
     footer {
